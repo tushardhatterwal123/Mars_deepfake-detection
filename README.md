@@ -4,7 +4,6 @@ This project focuses on building a deep learning model for classifying audio fil
 
 ## Project Overview
 
-- **Data:** ASVspoof 2019 dataset containing genuine and spoof audio recordings.
 - **Preprocessing:** Convert audio files to Mel spectrograms, augment training data.
 - **Model Architecture:** Convolutional Neural Network (CNN) with classification layers.
 - **Training:** Binary cross-entropy loss, Adam optimizer, monitoring metrics.
@@ -32,52 +31,6 @@ The model architecture is designed to extract features from Mel spectrograms and
 ![prc](eval/prc.png)
 ![cc](eval/cc.png)
 ![roc](eval/roc.png)
-## Getting Started
 
-### Installation
 
-To use this project, follow these steps:
 
-1. **Clone the repository:**
-```bash
-   git clone https://github.com/sksmta/audio-deepfake-detection.git
-   cd audio-deepfake-detection
-```
-
-2. **Download the ASVspoof 2019 dataset:**
-
-Download the dataset from [here](https://www.asvspoof.org/) and extract it into the dataset directory.
-
-## Contribution
-
-Contributions are welcome and greatly appreciated. To contribute to this project, follow these steps:
-
-1. Fork the repository to your own GitHub account.
-
-2. Clone the forked repository to your local machine:
- ```bash
-   git clone https://github.com/sksmta/audio-deepfake-detection.git
-   cd audio-deepfake-detection
- ```
-3. **Create a new branch for your contribution:**
-```bash
-   git checkout -b feature/your-feature-name
-```
-4. Make your changes, improvements, or bug fixes.
-5. **Commit your changes with a meaningful commit message:**
-```bash
-git commit -m "Add your commit message here"
-```
-6. **Push your changes to your GitHub repository:**
-```bash
-git push origin feature/your-feature-name
-```
-7. Open a pull request on the original repository's `main` branch. Provide a clear description of your contribution.
-8. Your pull request will be reviewed, and any necessary feedback will be given. Once approved, your contribution will be merged into the main project.
-
-Thank you for your valuable contributions to make this project even better!
-
-## Acknowledgments
-
-- ASVspoof 2019 dataset: [Download](https://www.asvspoof.org/)
-- Netron: [GitHub Repository](https://github.com/lutzroeder/netron)
